@@ -1,0 +1,223 @@
+body {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Chivo', sans-serif;
+  font-size: 45px;
+  color: white;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 700;
+}
+
+.banner {
+  padding: 150px 0;
+  margin: 0;
+  background-image: url('images/beeek.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+#banner-p {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.btn-blue {
+  background-color:#ffffff;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 20px 50px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.container {
+  width: 900px;
+  margin: 50px auto;
+}
+
+.card-white {
+  background-color: white;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 10px;
+}
+
+.card-white-img {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+
+}
+
+.video-wrapper {
+  justify-content: center;
+  align-items: center;
+  margin-left: 450px;
+  margin-top: 30px;
+}
+
+.tshirt-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.tshirt-container-img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.tshirt-container-h2 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.tshirt-container-p {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.tshirt-container-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.tshirt-container-label {
+  font-size: 16px;
+}
+
+.tshirt-container-select, .tshirt-container-input {
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.tshirt-container-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.tshirt-container-button:hover {
+  background-color: #fb0505;
+}
+
+
+.footer {
+  background-color: rgb(167, 75, 75);
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 20px 30px;
+}
+
+h4 {
+  margin-top: 0;
+}
+
+.list-unstyled {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  
+}
+
+.list-unstyled-contact-info {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  color: #ccc;
+  
+}
+
+.list-unstyled-footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  
+}
+
+.container-footer{
+background-color: rgb(197, 59, 59);
+}
+
+#tito{
+  color: white;
+  font-size: 25px;    
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.btn-footer{
+  color: #ccc;
+  font-size: 16px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.icone{
+  width: 20px;
+  margin-top: 70px;
+}
+
+.list-unstyled-social-links {
+  list-style: none;
+  padding-left: 0;
+
+}
+
+.list-unstyled-social-links li{
+  display: inline;
+}
+
+#social-links img{
+  height: 50px;
+  width: 50px;
+  padding-right: 20px;
+  margin: 0;
+
+}
+
+p#tito {
+  margin-top: 0;
+}
+
+
